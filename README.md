@@ -21,7 +21,8 @@ This folder contains all the end to end test files.
 This folder is automatically created when your test downloads any file and stores all the downloaded files.
 #### command.js:
 Command file is where you add your commonly used functions and custom commands. It includes functions you may call to use in different tests, such as the login function. Cypress created some functions for you, and you can override them here if you want.
-#### e2e.js (component.js): This file is a great place to put global configuration and behavior that modifies Cypress like before or before each. By default, it imports only commands.js, but you can import other files to keep things organized.
+#### e2e.js (component.js):
+This file is a great place to put global configuration and behavior that modifies Cypress like before or before each. By default, it imports only commands.js, but you can import other files to keep things organized.
 #### component-index.html:
 This file is created only when you choose component testing option. By default, Cypress renders your components into this HTML file. Use this file to edit the spec's fixtured HTML or styling components. It lets you add your application's fonts and global CDN downloads.
 
