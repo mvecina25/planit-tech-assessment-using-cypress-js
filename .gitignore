@@ -1,0 +1,8 @@
+# MAC File Format
+.DS_Store
+
+# Reports
+cypress/videos
+cypress/screenshots
+
+node_modules
