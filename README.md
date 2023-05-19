@@ -33,11 +33,12 @@
 <br />
 `component-index.html` This file is created only when you choose component testing option. By default, Cypress renders your components into this HTML file. Use this file to edit the spec's fixtured HTML or styling components. It lets you add your application's fonts and global CDN downloads.
 
-### How To Open Cypress Window App
+## How To Run
+### Open Cypress Window App
 Type command `npm run cy:open`
 
-### How To Run All Tests
+### Run All Tests
 Type command `npm run cy:run`
 
-### How To Run A Single Test
+### Run A Single Test
 Type command `npx cypress run --spec ./cypress/e2e/tests.spec.cy.js`
